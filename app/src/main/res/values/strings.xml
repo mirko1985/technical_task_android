@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TechincalTaskApp</string>
+    <string name="remove_user">Remove user</string>
+    <string name="add_new_user">Add new user</string>
+    <string name="create">CREATE</string>
+    <string name="cancel">Cancel</string>
+    <string name="enter_user_name">enter user name</string>
+    <string name="enter_user_email">enter user email</string>
+</resources>

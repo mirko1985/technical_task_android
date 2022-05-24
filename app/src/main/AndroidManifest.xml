@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.sliide.techincaltaskapp">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <application
+        android:name=".SliideTechTaskApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_sliide"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_sliide_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.TechincalTaskApp">
+        <activity
+            android:name=".UsersActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
